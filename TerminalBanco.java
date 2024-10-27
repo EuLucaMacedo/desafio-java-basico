@@ -14,7 +14,7 @@ public class TerminalBanco {
 
         System.out.println("Digite o Numero da Conta");
         numero = scanner.nextInt();
-        
+        scanner.nextLine();
 
         System.out.println("Bem - Vindo a Conta " + numero);
 
